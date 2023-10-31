@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root{
+	--color-general:#808080;
+	--color-primario: #00438b;
+	--color-titulo: #000;
+	--color-naranja: #ff7700;
+	--color-morado: #b17cc6;
+	--fondo-gris: #f5f5f5;
+	--fondo-aqua: #c6e6fd;
+	--color-aqua: #63b0e3;
+	--fondo-footer: #fff;
+	--fondo-morado: #efdff7;
+}
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+h2{
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 900;
+}
+
+h3{
+	
+}
+
+#hero{
+	color: #fff!important;
+	background: url("../img/hero-bg-4.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 10%;
+	mix-blend-mode: multiply;
+	box-shadow: inset 0 0 0 2000px rgba(0,37,88,0.80);
+}
+
+h3{
+	font-size: 20px;
+	padding-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#hero h1{
+	font-size: 50px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+#hero img{
+	padding-left:10%;
+	margin-top: 10%;
+	width: 80%;
+}
+
+#features{
+	padding: 40px 0px;
+}
+
+#features p{
+	font-size: 15px;
+	margin-left: 25px;
+}
+
+.btn-hero{
+	background-color: var(--color-naranja);
+	border: none; 
+	border-radius: 3px;
+	padding: 5px 20px;
+}
+
+.btn-primary{
+	background-color: var(--color-primario);
+	border: none; 
+	border-radius: 3px;
+	padding: 5px 20px;
+}
+
+.r1{
+	margin-left: 5px;
+}
+
+#features i{
+	color: var(--color-primario);
+	font-weight: bold;
+}
+
+.cartas{
+	text-align: center;
+}
+
+h4{
+	font-family: 'Open Sans', sans-serif;
+	color: #232323;
+	font-size: 20px;
+}
+
+#hero h1{
+	font-family: 'Comfortaa', sans-serif;
+	margin-top: 10%;
+}
+
+#features h3{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#features h2{
+	text-align: center;
+}
+
+#features{
+	padding-top: 10%;
+}
+
+#cta h2{
+	color: #FFF;
+}
+
+
+
+.ca1{
+	width: 175px;
+	height: 175px;
+	line-height: 175px;
+	background-color: var(--color-naranja);
+	border-radius: 5px;
+	color: #fff;
+	margin:10px 30px;
+}
+
+.ca1 i{
+	font-size: 60px;
+	color:var(--color-primario)!important;
+}
+
+.ca2{
+	width: 175px;
+	height: 175px;
+	line-height: 175px;
+	background-color: var(--fondo-morado);
+	border-radius: 5px;
+	color: var(--color-morado);
+	margin:25px 30px;
+}
+
+.ca2 i{
+	font-size: 60px;
+	color:var(--color-morado)!important;
+}
+
+.ca3{
+	width: 175px;
+	height: 175px;
+	line-height: 175px;
+	background-color: var(--fondo-aqua);
+	border-radius: 5px;
+	color: var(--color-aqua);
+	margin:10px 30px;
+}
+
+.ca3 i{
+	font-size: 60px;
+	color:var(--color-aqua)!important;
+}
+
+
+.ca4{
+	width: 175px;
+	height: 175px;
+	line-height: 175px;
+	background-color: var(--color-primario);
+	border-radius: 5px;
+	color: #fff;
+	margin:25px 30px;
+}
+
+.ca4 i{
+	font-size: 60px;
+	color:var(--color-naranja)!important;
+}
+
+
+.sq i{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background-color: var(--color-primario);
+	color: #FFF;
+	text-align: center;
+	border-radius: 3px;
+}
+
+
+#cta{
+	background: url("../img/hero-bg-2.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 30px 0px;
+	mix-blend-mode: multiply;
+	box-shadow: inset 0 0 0 2000px rgba(0,37,88,0.80);
+}
+
+cta .btn{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form{
+	background-color: var(--fondo-gris);
+	margin-top: 40px;
+	padding-top: 60px;
+}
+
+.for{
+	background-color: #FFF;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+input{
+	background-color: var(--fondo-gris);
+	border:none;
+	border-radius: 3px;
+	margin-top: 10px;
+	padding: 10px 0px;
+	margin-left: 10px;
+}
+
+textarea{
+	background-color: var(--fondo-gris);
+	border:none;
+	border-radius: 3px;
+	margin-top: 10px;
+	padding: 10px 0px;
+	margin-left: 10px;
+}
+
+.for .btn{
+	margin-top: 10px;
+}
+
+
+header{
+	background-color: var(--color-primario);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#agency{
+	background-color: var(--fondo-gris);
+	padding-top: 90px;
+}
+
+#agency h2, p{
+	color: #232323;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
